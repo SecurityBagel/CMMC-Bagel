@@ -30,4 +30,4 @@ Organizations can freely use and modify these Power BI templates to meet their u
 - **Improvements**: Contributions are welcome! If you enhance the data model, optimize performance, or add useful features, please consider submitting those changes back to this repository. This helps the community benefit from ongoing improvements and collaboration.
 
 ## Demo
-
+https://securitybagel.github.io/CMMC-Bagel-Lite
