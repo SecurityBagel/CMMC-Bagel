@@ -7,7 +7,7 @@ An open-source Power BI template designed for compliance metrics, assessment tra
 
 ## Directions
 1. [Download and install Microsoft Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) (free).
-2. Download and complete the **'Assessment Template'** and **'POAM Template'** Excel files. Required fields are noted.
+2. Download and complete the **'Assessment Template.xlsx'** and **'POA&M Template.xlsx'** Excel files. Required fields are noted.
 3. Place your completed assessment worksheets within a folder. Use one Excel file per Assessment and name each assessment worksheet tab.
 4. Download and run the **'CMMC Bagel lite.pbit'** file. (Ignore version errors)
 5. Copy and paste the path to the folder containing your completed assessment files in the **'Assessments Folder'** field. Remove quotes from path name.
