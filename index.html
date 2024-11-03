@@ -13,6 +13,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
         }
 
         #fullscreenButton {
@@ -20,18 +22,28 @@
             font-size: 16px;
             margin-bottom: 10px;
             cursor: pointer;
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            border-radius: 5px;
         }
 
         iframe {
             width: 100%;
             height: 90vh; /* Almost full screen without entering fullscreen mode */
+            min-height: 600px; /* Fallback for smaller screens */
             border: none;
         }
     </style>
 </head>
 <body>
     <button id="fullscreenButton">View Full Screen</button>
-    <iframe title="CMMC Bagel Lite (Demo)" src="https://app.powerbi.com/view?r=eyJrIjoiYjA5NmQ1ZDMtYjRkNi00ODE3LWE5N2QtMzBkYjRlM2M4M2JkIiwidCI6IjJiMDc4ODQ4LWM0M2UtNDVmMS04MzdlLTUyODBhMjVhNzZlZiIsImMiOjN9" allowfullscreen="true"></iframe>
+    <iframe 
+        title="CMMC Bagel Lite (Demo)" 
+        src="https://app.powerbi.com/view?r=eyJrIjoiYjA5NmQ1ZDMtYjRkNi00ODE3LWE5N2QtMzBkYjRlM2M4M2JkIiwidCI6IjJiMDc4ODQ4LWM0M2UtNDVmMS04MzdlLTUyODBhMjVhNzZlZiIsImMiOjN9" 
+        allow="fullscreen" 
+        allowfullscreen="true">
+    </iframe>
 
     <script>
         document.getElementById("fullscreenButton").onclick = function() {
@@ -44,10 +56,14 @@
                 iframe.webkitRequestFullscreen();
             } else if (iframe.msRequestFullscreen) { /* IE/Edge */
                 iframe.msRequestFullscreen();
+            } else {
+                // Fallback: make the entire document go full screen
+                document.documentElement.requestFullscreen();
             }
         };
     </script>
 </body>
 </html>
+
 
 
