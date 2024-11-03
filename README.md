@@ -2,7 +2,7 @@
   <img src="https://github.com/SecurityBagel/SecurityBagel/blob/main/SecurityBagel.png"/>
 </p>
 
-# CMMC Bagel Lite
+# CMMC Bagel
 An open-source Power BI template designed for compliance metrics, assessment tracking, and POA&M management. Ideal for auditing and managing your CMMC compliance program across one or more assessments for combined scoring.
 
 ## Directions
@@ -15,12 +15,24 @@ An open-source Power BI template designed for compliance metrics, assessment tra
 7. Run locally or publish to your Power BI Service.
 
 ## Features
+### Basic
 1. **Automated SPRS Scoring**: Calculates SPRS scores with POA&M allowance status for compliance with 32 CFR Part 170.
 2. **Combined Assessment Metrics**: Consolidates metrics and scores across individual facility/device assessments, CUI assets, security protection assets, or other assessment scope.
-3. **POA&M Management**: Track remediation actions and monitor progress on outstanding controls.
-4. **Interactive Dashboards**: Visualize compliance metrics, track assessment completion, and identify gaps.
-5. **Real-Time Assessment Updates**: Track live assessment progress in Power BI Service for continuous updates.
-6. **Free and Open-Source**: Fully free and modifiable to fit your needs.
+3. **Interactive Dashboards**: Visualize compliance metrics, track assessment completion, and identify gaps.
+4. **Real-Time Assessment Updates**: Track live assessment progress in Power BI Service for continuous updates.
+5. **Free and Open-Source**: Fully free and modifiable to fit your needs.
+### Lite
+1. All the features in Basic, plus...
+2. **POA&M Management**: Track remediation actions and monitor progress on outstanding controls.
+3. **Free and Open-Source**: Also fully free and modifiable to fit your needs.
+### Pro (Coming Soon)
+1. **Customer Responsibility Matrices**: AWS and Azure customer responsibility worksheets and assessment.
+2. **Risk**: Control maturity, weighting, asset criticality, and scoring.
+3. **Tool Integrations**: Automate evidence gathering and test metrics.
+4. **Additional Standards**: NIST CSF, framework mappings (ISO 27001, NIST 800-53), and more...
+5. **SSP Builder**: Export a formatted SSP with Power BI report builder.
+6. **Advanced Calculations and Visualizations**: POA&M ROI, What-if analysis, risk scoring.
+7. **Customer support**: The Pro version will include additional support.
 
 ## Contributing
 This repository is licensed under the GNU General Public License (GPL).
