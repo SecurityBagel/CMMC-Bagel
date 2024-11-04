@@ -15,7 +15,7 @@ An open-source Power BI template designed for compliance metrics, assessment tra
 7. Run locally or publish to your Power BI Service.
 
 ## Features
-### Basic
+### Plain
 1. **Automated SPRS Scoring**: Calculates SPRS scores with POA&M allowance status for compliance with 32 CFR Part 170.
 2. **Combined Assessment Metrics**: Consolidates metrics and scores across individual facility/device assessments, CUI assets, security protection assets, or other assessment scope.
 3. **Interactive Dashboards**: Visualize compliance metrics, track assessment completion, and identify gaps.
@@ -25,7 +25,7 @@ An open-source Power BI template designed for compliance metrics, assessment tra
 1. All the features in Basic, plus...
 2. **POA&M Management**: Track remediation actions and monitor progress on outstanding controls.
 3. **Free and Open-Source**: Also fully free and modifiable to fit your needs.
-### Pro (Coming Soon)
+### Everything (Pro version Coming Soon)
 1. **Customer Responsibility Matrices**: AWS and Azure customer responsibility worksheets and assessment.
 2. **Risk**: Control maturity, weighting, asset criticality, and scoring.
 3. **Tool Integrations**: Automate evidence gathering and test metrics.
