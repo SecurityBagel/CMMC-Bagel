@@ -16,9 +16,9 @@ An open-source Power BI template designed for compliance metrics, assessment tra
 7. Copy and paste the complete path to the folder containing your completed assessment files in the **'Assessments Folder'** field. Remove quotes from path name. (Example: C:\Users\foo\Documents\Assessments)
 8. Copy and paste the complete path to the file for the POA&M (Plan of Action and Milestones) in the **'POA&M file'** field. Remove quotes from path name. (Example: C:\Users\foo\Documents\POA&M Template.xlsx)
 ### Using Sharepoint Online
-7. Enter your SharePoint site URL. (Example: https://securitybagel.sharepoint.com/sites/SecurityBagel-CMMCBagel)
+7. Enter your SharePoint site URL. (Example: https://securitybagel.sharepoint.com/sites/SecurityBagelCMMCBagel)
 8. Enter the folder name containing your completed assessment files.
-9. Copy and paste the complete path to the file for the POA&M (Plan of Action and Milestones) in the **'POA&M file'** field. The path can be found under by clicking on the file (...) then details, and copying the Path.  (Example: https://securitybagel.sharepoint.com/sites/SecurityBagel-CMMCBagel/Shared%20Documents/Files/Example%20POA&M.xlsx)
+9. Copy and paste the complete path to the file for the POA&M (Plan of Action and Milestones) in the **'POA&M file'** field. The path can be found under by clicking on the file (...) then details, and copying the Path.  (Example: https://securitybagel.sharepoint.com/sites/SecurityBagel-CMMCBagel/Shared%20Documents/Files/POA&M.xlsx)
 
 
 ## Features
