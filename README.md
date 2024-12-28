@@ -42,4 +42,4 @@ Organizations can freely use and modify these Power BI templates to meet their u
 https://securitybagel.github.io/CMMC-Bagel/live-demo.html
 
 ## Screenshot
-![CMMC Bagel Lite](https://github.com/SecurityBagel/CMMC-Bagel/blob/main/Images/CMMC%20Bagel%20Lite.png)
+![CMMC Bagel Lite](https://github.com/SecurityBagel/CMMC-Bagel/blob/main/Images/CMMC%20Bagel.png)
