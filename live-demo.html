@@ -1,67 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Power BI Report</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Bagel</title>
     <style>
-        body, html {
+        body {
             margin: 0;
             padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark mode background */
+            color: #f0f0f0; /* Light text color for contrast */
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            height: 100vh;
+            text-align: center;
         }
 
-        #fullscreenButton {
+        header {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 150px; /* Smaller logo size */
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
             padding: 10px 20px;
-            font-size: 16px;
-            margin-bottom: 10px;
-            cursor: pointer;
-            background-color: #0078d4;
-            color: white;
-            border: none;
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #ffffff;
             border-radius: 5px;
         }
 
-        iframe {
-            width: 100%;
-            height: 90vh; /* Almost full screen without entering fullscreen mode */
-            min-height: 600px; /* Fallback for smaller screens */
-            border: none;
+        .download {
+            background-color: #DC1588;
+        }
+
+        .demo {
+            background-color: #1BCEDF;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #999999;
+        }
+
+        footer a {
+            color: #1BCEDF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <button id="fullscreenButton">View Full Screen</button>
-    <iframe 
-        title="CMMC Bagel Lite (Demo)" 
-        src="https://app.powerbi.com/view?r=eyJrIjoiZjIxZTk2ZTktMDJjNi00NGZjLWJlMTItYzc0MmY4YTJjMWIzIiwidCI6IjA1NjMwZTA5LTg4MGYtNDIxOC1iN2ZjLWNmZjJiNDU2YWUyNyIsImMiOjZ9" 
-        allowfullscreen>
-    </iframe>
-    <script>
-        document.getElementById("fullscreenButton").onclick = function() {
-            var iframe = document.querySelector("iframe");
-            if (iframe.requestFullscreen) {
-                iframe.requestFullscreen();
-            } else if (iframe.mozRequestFullScreen) { /* Firefox */
-                iframe.mozRequestFullScreen();
-            } else if (iframe.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-                iframe.webkitRequestFullscreen();
-            } else if (iframe.msRequestFullscreen) { /* IE/Edge */
-                iframe.msRequestFullscreen();
-            } else {
-                // Fallback: make the entire document go full screen
-                document.documentElement.requestFullscreen();
-            }
-        };
-    </script>
+    <header>
+        <img src="https://raw.githubusercontent.com/SecurityBagel/SecurityBagel/main/SecurityBagelLogo.png" alt="Security Bagel Logo">
+        <h1>Security Bagel</h1>
+        <p>Power BI Solutions for GRC Management and Measurement</p>
+    </header>
+    <div class="links">
+        <a href="https://github.com/SecurityBagel/AWS-CCG/releases/download/latest/AWS-CCG.pbix" class="button download">Open-Source Download</a>
+        <a href="https://securitybagel.github.io/AWS-CCG/demo.html" class="button demo">Demo</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Security Bagel | Built for the cybersecurity open-source community</p>
+        <p>
+            Connect with me on 
+            <a href="https://www.linkedin.com/in/damianmehsling" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/sponsors/SecurityBagel" target="_blank">GitHub Sponsors</a>
+        </p>
+    </footer>
 </body>
 </html>
+
 
 
 
