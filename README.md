@@ -22,6 +22,10 @@ An open-source Power BI template designed for compliance metrics, assessment tra
 9. Copy and paste the complete path to the file for the POA&M (Plan of Action and Milestones) in the **'POA&M file'** field. The path can be found under by clicking on the file (...) then details, and copying the Path.  (Example: https://securitybagel.sharepoint.com/sites/SecurityBagel-CMMCBagel/Shared%20Documents/Files/POA&M.xlsx)
 ### Report (.pbix)
 1. Same as above, but instead of entering the file paths at startup, use the parameters in Power Query. The Error: "There are pending changes in our queries that haven't been applied" is expected until the parameters are configured.
+### Power BI Service (.pbix)
+1. Upoad a .pbix file directly from Power BI Service by clicking **Upload** under **My Workspace**.
+2. Edit the parameters by clicking on **Settings (...)** next to the Semantic Model in **My Workspace**.
+3. Under **Parameters** enter the applicable file and folder paths for Excel or Sharepoint as described above under Template.
 
 ## Features
 ### 
