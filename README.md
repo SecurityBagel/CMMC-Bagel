@@ -6,20 +6,22 @@
 An open-source Power BI template designed for compliance metrics, assessment tracking, and POA&M management. Ideal for auditing and managing your CMMC compliance program across one or more assessments for combined scoring.
 
 ## Directions
+### Template (.pbit)
 1. [Download and install Microsoft Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) (free).
 2. Download and complete the **'Assessment Template.xlsx'** and **'POA&M Template.xlsx'** Excel files. Required fields are noted.
 3. Place your completed assessment worksheets within a folder. Use one Excel file per Assessment and name each assessment worksheet tab.
 4. Download and run the **'CMMC Bagel lite.pbit'** file. (Ignore version errors)
 5. Run locally or publish to your Power BI Service.
 6. Enter the file location paths using Excel or SharePoint Online. 
-### Using Excel
+#### Using Excel
 7. Copy and paste the complete path to the folder containing your completed assessment files in the **'Assessments Folder'** field. Remove quotes from path name. (Example: C:\Users\foo\Documents\Assessments)
 8. Copy and paste the complete path to the file for the POA&M (Plan of Action and Milestones) in the **'POA&M file'** field. Remove quotes from path name. (Example: C:\Users\foo\Documents\POA&M Template.xlsx)
-### Using Sharepoint Online
+#### Using Sharepoint Online
 7. Enter your SharePoint site URL. (Example: https://securitybagel.sharepoint.com/sites/SecurityBagelCMMCBagel)
 8. Enter the folder name containing your completed assessment files.
 9. Copy and paste the complete path to the file for the POA&M (Plan of Action and Milestones) in the **'POA&M file'** field. The path can be found under by clicking on the file (...) then details, and copying the Path.  (Example: https://securitybagel.sharepoint.com/sites/SecurityBagel-CMMCBagel/Shared%20Documents/Files/POA&M.xlsx)
-
+### Report (.pbix)
+1. Same as above, but instead of entering the file paths at startup, use the parameters in Power Query. The Error: "There are pending changes in our queries that haven't been applied" is expected until the parameters are configured.
 
 ## Features
 ### 
